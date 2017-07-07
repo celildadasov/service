@@ -1,0 +1,62 @@
+.row{
+    margin-top: 5px;
+}
+h2{
+       font-family: 'Raleway', sans-serif;
+   color: #383d48;
+   line-height: 1;
+   
+}
+.head{
+    padding-bottom: 30px;
+}
+h2>span:first-child{
+    font-weight: 400;
+    font-size: 18px;
+}
+h2>span:last-child{
+    font-weight: 800;
+
+}
+.service{
+    height: 222px;
+     float: left;
+     margin-top: 10px;
+
+}
+.clear{
+    clear: both;
+}
+.service-box{
+    height: 211px;
+    padding: 17px 20px;
+        border: 1px solid #e6ebf4;
+
+}
+
+.text>h2{
+    font-size: 13.5px;
+
+}
+.image{
+    float: left;
+}
+.text{
+    float: left;
+    
+    padding-left: 28px;
+    
+}
+.image>img{
+    
+    padding-top: 20px;
+}
+.text>h2{
+    font-weight: 800;
+    
+}
+.text>p{
+    color: #6e868c;
+    margin-top: 12px;
+}
+
