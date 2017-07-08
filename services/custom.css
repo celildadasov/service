@@ -1,6 +1,10 @@
+
+
 .row{
     margin-top: 5px;
+    
 }
+
 h2{
        font-family: 'Raleway', sans-serif;
    color: #383d48;
@@ -60,3 +64,59 @@ h2>span:last-child{
     margin-top: 12px;
 }
 
+.slide{
+    height: 330px;
+    background: #f0f8ff;
+    
+
+}
+.slide_text{
+   padding:  37px 0 8px 20px;
+    background: url(../services/quote-l.png) left top no-repeat , 
+			   url(../services/quote-r.png) bottom right no-repeat;
+   
+}
+.slide_text>p{
+    font-size: 15px;
+    color: #6e868c;
+    font-style: italic;
+    font-family: 'Lora', serif;
+
+   
+}
+#client_name{
+    line-height: 20px;
+}
+#client_name>span:first-child{
+   font-size: 13.5px;
+   color: #6e868c;
+   font-weight: normal;
+   font-family: 'Lora', serif;
+
+   
+}
+#client_name>span:last-child{
+    font-size: 13.5px;
+    color: #6e868c;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    display: block;
+    
+
+
+}
+.circle>div{
+    float: right;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+    text-align: right;
+    background: #dce8f1;
+    margin: 0 2px;
+    cursor: pointer;
+    
+}
+.bb,.cc,.dd{
+    display: none;
+}
