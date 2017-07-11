@@ -7,8 +7,9 @@
     <title>Document</title> 
      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
      rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap.css">
-     <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/custom.css">
+     <link rel="stylesheet" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,700,700i,900,900i" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,250 +22,235 @@
 
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-       <!--baslik-->
-            <div class="col-md-12 head"><h2><span>WHAT</span><br><span>WE OFFER / DEPARTMENTS</span></h2></div>
-        </div>
 
-        <div class="row">
-            <!--medical service-->
-            <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-med-var1.png"></div>
-                <div class="text"><h2>MEDICAL SERVICE</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
+    <div id="services">
 
+            <!--header-->
+        <div class="header">
+            <!--container-->
+            <div class="container">
+                <!--row-->
+                <div class="row">
+                    <!--TopPart-->
+                    <div class="headerTopPart col-sm-12">
+                        <div class="row">
+                            <ul>
+                                    <li>Email :<a href="#">info@medicaltheme.com</a></li>
+                                    <li>Call :<a href="#"> 8876 7786 999</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <!--/TopPart-->
+
+                    <!--BottomPart-->
+                    <div class="headerBottomPart">
+                        <div class="row">
+                            <!--logo-->
+                            <div class="col-sm-3 logo">
+                                <a href="#"><img src="img/logo-var2.png" alt="Medical Themes"></a>
+                                </div>
+                            <!--/logo-->
+
+                            <!--navigation-->
+                            <div class="col-sm-9 navigation">
+                                <div class="navbar navbar-default">
+                                    <div class="container-fluid">
+                                        <!--navbar-header responsive button-->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                <span class="sr-only"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                </button>
+                                            </div>
+                                            <!--/navbar-header-->
+
+                                            <!--collapse menu-->
+                                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                <!--nav menu-->
+                                                <ul class="nav navbar-nav">
+                                                        <li class="menuList dropdown active drop" onclick="navClick(this)"><a href="#" class="dropdown-toggle activeNav" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                                                        <!--dropdown-menu menu daxilində li'lər daxilində olan alt menu-->
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li class="drop-down-bg"></li>
+                                                            <li><a href="index.html">Homepage variation-1</a></li>
+                                                            <li><a href="#">Homepage variation-2</a></li>
+                                                            <li><a href="#">Homepage variation-3</a></li>
+                                                            </ul>
+                                                            <!--/dropdown-->
+                                                        </li>
+                                                        <li class="menuList"><a href="about.html">About Us</a></li>
+                                                        <li class="menuList"><a href="#">Doctors</a></li>
+                                                        <li class="menuList"><a href="#">Services</a></li>
+                                                        <li class="menuList"><a href="#">News</a></li>
+                                                        <li class="menuList dropdown drop" onclick="navClick(this)"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">pages</a>
+                                                        <!--dropdown-menu menu daxilində li'lər daxilində olan alt menu-->
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li class="drop-down-bg"></li>
+                                                                <li><a href="#">Blog</a></li>
+                                                                <li><a href="#">Blog Details</a></li>
+                                                                <li><a href="#">Doctors' Timetable</a></li>
+                                                                <li><a href="#">404 ERROR</a></li>
+                                                                <li><a href="#">Appointment</a></li>
+                                                                </ul>
+                                                                <!--/dropdown-->
+                                                        </li>
+                                                        <li class="menuList"><a href="#">Contact Us</a></li>
+                                                        <li class="lst-head"><a href="#">Appointment</a></li>
+                                                    </ul>
+                                                    <!--/nav-->
+                                                </div>
+                                                <!--/collapse-->
+                                        </div>
+                                    </div>
+                                </div>
+                            <!--/navigation-->
+                            </div>
+                        </div>
+                    <!--/BottomPart-->
+                    </div>
+                    <!--/row-->
                 </div>
-                </div>
-                </div>
-               
-            <!--24 HOURS SERVICE-->
+                <!--container-->
+            </div>
+<!--/header-->
 
 
-          <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-serv-var1.png"></div>
-                <div class="text"><h2>24 HOURS SERVICE</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-            
-        </div>
-
-
- <div class="row">
-     <!--EMERGENCY DEPARTMENTS-->
-
-
-            <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-emerg-var1.png"></div>
-                <div class="text"><h2>EMERGENCY DEPARTMENTS</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-               
-            <!--X-RAY-->
-          <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-xray-var1.png"></div>
-                <div class="text"><h2>X-RAY</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-            
-        </div>
-
-         <div class="row">
-             <!--CARDIOLOGY-->
-            <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-card-var1.png"></div>
-                <div class="text"><h2>CARDIOLOGY</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-               <!--NEUROLOGY-->
-            
-          <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-neur-var1.png"></div>
-                <div class="text"><h2>NEUROLOGY</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-            
-        </div>
-
-         <div class="row">
-             <!--PREGNANCY-->
-            <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-preg-var1.png"></div>
-                <div class="text"><h2>PREGNANCY</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-               
-            <!--dental-->
-          <div class="col-md-6 service">
-                <div class=" service-box"><div class="image"><img src="img/icon-dent-var1.png"></div>
-                <div class="text"><h2>DENTAL</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has 
-                been the industry's<br> standard dummy text ever since the 1500s, when an unknown<br> printer took a galley 
-                of type and scrambled it to make a type<br> specimen book.</p>
-
-                </div>
-                </div>
-                </div>
-            
-        </div>
-
+    <div class="content">
+        <div class="innerBanner">
+            <img src="img/service.jpg" alt="">
         
-
-    </div>
-
-    <!--slide-->
-     
-           <div class="container">
-
-                <div class="row   aa">
-
-        <div class="col-md-12 slide">
-            <div class="col-md-12 circle">  <h2><span>OUR</span><br><span>HAPPY CLIENTS</span></h2>
-        <div id="one"></div>
-        <div id="two" onclick="tikla()"></div>
-        <div id="three"></div>
-        <div id="four"></div>
+        <div class="container">
+            <div class="row">
+                <h2>Services</h2>
+            </div>
+            </div>
         </div>
-      
-            <div class="col-md-2">
-        <img src="client (1).png" alt="">
+        <div class="firstSection sections ">
+            <div class="container">
+                <div class="row">
+                    <div class="jst-cov">
+                        <div class="col-sm-12">
+                            <h2 class="tittle">
+                                <span>what</span>
+                                we offer / Departments
+                            </h2>
+                        </div>
+                        </div>
+
+
+                    
+                </div>
+            </div>
         </div>
-       
-        <div class="col-md-10 slide_text">
-             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown printer 
-                took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not<br> only five centuries, but also the leap into electronic.</p>
+
+
+
+            
+
+
+             <!--footer-->
+        <div class="footer">
+            <!--container-->
+            <div class="container">
+                <!--row-->
+                <div class="row">
+
+                    <!--col-sm-6-->
+                    <div class="col-sm-6 col-md-3 col-lg-3">
+                        <h2>Address</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <!--footerAddress-->
+                        <div class="footerAddress">
+                            <span>Address :</span>
+                            Medical Theme<br>
+                            22, North Avenue post here<br>
+                            New York city 55862<br>
+                            <span>Call :</span>
+                            +8856 9984 222<br>
+                            <span>Email :</span>
+                            <a href="mailto:info@medicaltheme.com">info@medicaltheme.com</a>
+                            </div>
+                            <!--/footerAddress-->
+                        </div>
+                        <!--/col-sm-6-->
+
+                    <!--col-sm-6-->
+                    <div class="col-sm-6 col-md-3 col-lg-3 list-styles">
+                        <h2>Service</h2>
+                        <!--ul-->
+                        <ul>
+                            <li><a href="#">Cardiology</a></li>
+                            <li><a href="#">Neurology</a></li>
+                            <li><a href="#">Cardiac Clinic</a></li>
+                            <li><a href="#">Laboratory Analysis</a></li>
+                            <li><a href="#">Dental Clinic</a></li>
+                            <li><a href="#">Gynecological Clinic</a></li>
+                            <li><a href="#">Psychological Counseling</a></li>
+                            </ul>
+                            <!--/ul-->
+                        </div>
+                        <!--/col-sm-6-->
+
+                    <!--col-sm-6-->
+                    <div class="col-sm-6 col-md-3 col-lg-3 list-styles">
+                        <h2>Dcotors</h2>
+                        <!--ul-->
+                        <ul>
+                            <li><a href="#">Dr. Suzanne Holroyd</a></li>
+                            <li><a href="#">Dr. John DiMarco</a></li>
+                            <li><a href="#">Dr. Catherine Appleton</a></li>
+                            <li><a href="#">Dr. Katie Hullfish</a></li>
+                            <li><a href="#">Dr. Paul Diamond</a></li>
+                            <li><a href="#">Dr. Mary Lee Vance</a></li>
+                            <li><a href="#">Dr. Muhammad T. Al-Lozi</a></li>
+                            </ul>
+                            <!--/ul-->
+                        </div>
+                        <!--/col-sm-6-->
+
+
+                    <!--col-sm-6-->
+                    <div class="col-sm-6 col-md-3 col-lg-3 list-styles">
+                        <h2>news letter</h2>
+                        <!--footernewsLetter-->
+                        <div class="footernewsLetter">
+                            <!--form-->
+                            <form action="#">
+                                <input type="text" placeholder="Enter Email Address" >
+                                <input type="submit" value="go" onclick="sendNewsLetter()">
+                                </form>
+                                <!--/form-->
+                            </div>
+                            <!--/footernewsLetter-->
+
+                            <!--newsLetterNotification-->
+                            <div class="newsLetterNotification">
+                                <p></p>
+                            </div>
+                            <!--/newsLetterNotification-->
+
+                        </div>
+                        <!--/col-sm-6-->
+
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+            </div>
+    <!--/footer-->
+
+    <!--copyright-->
+        <div class="copyright">
+            <p>Medical Theme © 2015 | All Rights Reserved</p>
         </div>
-        <h2 id="client_name"><span>BY</span><span>SUCHITHRA RAJ</span></h2>
+    <!--/copyright-->
+
         </div>
-    </div>
-   
 
 
-
-
-
-
-
-  <div class="row bb ">
-
-        <div class="col-md-12 slide">
-            <div class="col-md-12 circle">  <h2><span>OUR</span><br><span>HAPPY CLIENTS</span></h2>
-        <div id="one"></div>
-        <div id="two"></div>
-        <div id="three"></div>
-        <div id="four"></div>
-        </div>
-      
-            <div class="col-md-2">
-        <img src="client (1).png" alt="">
-        </div>
-       
-        <div class="col-md-10 slide_text">
-             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown printer 
-                took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not<br> only five centuries, but also the leap into electronic.</p>
-        </div>
-        <h2 id="client_name"><span>BY</span><span>SUCHITHRA RAJ</span></h2>
-        </div>
-    </div>
-
-
-
-    <div class="row cc ">
-
-        <div class="col-md-12 slide">
-            <div class="col-md-12 circle">  <h2><span>OUR</span><br><span>HAPPY CLIENTS</span></h2>
-        <div id="one"></div>
-        <div id="two"></div>
-        <div id="three"></div>
-        <div id="four"></div>
-        </div>
-      
-            <div class="col-md-2">
-        <img src="client (1).png" alt="">
-        </div>
-       
-        <div class="col-md-10 slide_text">
-             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown printer 
-                took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not<br> only five centuries, but also the leap into electronic.</p>
-        </div>
-        <h2 id="client_name"><span>BY</span><span>SUCHITHRA RAJ</span></h2>
-        </div>
-    </div>
-
-
-
-
-
-
-
-    <div class="row dd">
-
-        <div class="col-md-12 slide">
-            <div class="col-md-12 circle">  <h2><span>OUR</span><br><span>HAPPY CLIENTS</span></h2>
-        <div id="one"></div>
-        <div id="two"></div>
-        <div id="three"></div>
-        <div id="four"></div>
-        </div>
     
-            <div class="col-md-2">
-        <img src="client (1).png" alt="">
-        </div>
-       
-        <div class="col-md-10 slide_text">
-             
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s, when an unknown printer 
-                took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not<br> only five centuries, but also the leap into electronic.</p>
-        </div>
-        <h2 id="client_name"><span>BY</span><span>SUCHITHRA RAJ</span></h2>
-        </div>
-        
-    </div>
-
-        </div>
 
 
         
@@ -280,6 +266,6 @@
 
      <script src="js/bootstrap.js"></script>
     <script src="js/jquery-3.2.0.slim.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
